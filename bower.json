@@ -1,0 +1,25 @@
+{
+  "name": "alarm",
+  "version": "0.1.0",
+  "homepage": "https://github.com/julio1741/alarm",
+  "authors": [
+    "Julio <julio@acid.cl>"
+  ],
+  "description": "A Javascript alarm.",
+  "main": "src/javascript/alarm.js",
+  "keywords": [
+    "moment.js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "~2.10.3",
+    "moment-timezone": "~0.4.0"
+  }
+}
