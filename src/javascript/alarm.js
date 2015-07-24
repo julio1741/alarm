@@ -50,10 +50,11 @@ function populateSelect(select, langArray){
 
     populateSelect(document.getElementById('hora'),populateArray(12));
 
-    populateSelect(document.getElementById('minuto'),populateArray(59,0));
-    populateSelect(document.getElementById('segundo'),populateArray(59,0));
-    populateSelect(document.getElementById('timezone'),moment.tz.names());
-
+    populateSelect(document.getElementById('minuto'), populateArray(59,0));
+    populateSelect(document.getElementById('segundo'), populateArray(59,0));
+    populateSelect(document.getElementById('timezone'), moment.tz.names());
+    var sel = document.getElementById('timezone');
+    sel.value = 'America/Caracas';
     setInterval(reloj, 1000);
   });
 
