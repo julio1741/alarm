@@ -18,7 +18,7 @@ function reloj(){
 
 
   if(strHoraAlarma === m.tz(tzValue).format("hh:mm:ss")){
-  	var snd = new Audio("wav/alarm.wav"); // buffers automatically when created
+  	var snd = new Audio("vendor/wav/alarm.wav"); // buffers automatically when created
   	snd.play();
   }
 	reloj.innerHTML = current; 
